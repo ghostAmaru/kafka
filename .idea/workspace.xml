@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/GsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/GsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/KafkaDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/KafkaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-16",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ecommerce" />
