@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="modularizando os projetos para que estejam aptos a serem microservicos">
-      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
-    </list>
+    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="modularizando os projetos para que estejam aptos a serem microservicos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-16",
-    "last_directory_selection": "/home/devops/IdeaProjects/ecommerce/service-fraud-detector/src/main/java/ecommerce",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-16&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/devops/IdeaProjects/ecommerce/service-fraud-detector/src/main/java/ecommerce&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ecommerce" />
@@ -129,8 +127,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.FraudDetectorService (1)" />
-      <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.FraudDetectorService" />
+      <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.LogService" />
       <item itemvalue="Application.NewOrder" />
     </list>
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663365740516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modularizando os projetos para que estejam aptos a serem microservicos">
+      <created>1663366005438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663366005438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
