@@ -5,6 +5,7 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 public class NewOrder {
+
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         try (var orderDispatcher = new KafkaDispatcher<Order>()) {
             try (var emailDispatcher = new KafkaDispatcher<String>()) {
