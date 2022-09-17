@@ -3,12 +3,21 @@ package br.com.brmtech.ecommerce;
 import ecommerce.KafkaService;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 public class CreateUserService {
 
-    public static void main(String[] args) {
+    CreateUserService() throws SQLException {
+        String url = "jdbc.sqlite:users_database.db";
+        Connection connection = DriverManager.getConnection(url);
+        connection.createStatement().execute("create table Users (" + "uuid varchar(200) primary key," + "email varchar (200))");
+    }
+
+    public static void main(String[] args) throws SQLException {
 
         var fraudService = new CreateUserService();
         try (var service = new KafkaService<>(CreateUserService.class.getSimpleName(),
