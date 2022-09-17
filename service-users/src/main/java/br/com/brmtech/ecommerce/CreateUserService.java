@@ -11,9 +11,11 @@ import java.util.concurrent.ExecutionException;
 
 public class CreateUserService {
 
+    private final Connection connection;
+
     CreateUserService() throws SQLException {
         String url = "jdbc.sqlite:users_database.db";
-        Connection connection = DriverManager.getConnection(url);
+        connection = DriverManager.getConnection(url);
         connection.createStatement().execute("create table Users (" + "uuid varchar(200) primary key," + "email varchar (200))");
     }
 
