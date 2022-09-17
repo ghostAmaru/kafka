@@ -17,7 +17,7 @@ public class KafkaService<T> implements Closeable {
     private final KafkaConsumer<String, String> consumer;
     private final ConsumerFunction parse;
 
-    KafkaService(String groupId, String topic, ConsumerFunction parse, Class<T> type, Map<String, String> properties) {
+    public KafkaService(String groupId, String topic, ConsumerFunction parse, Class<T> type, Map<String, String> properties) {
         this(parse, groupId, type,properties);
         consumer.subscribe(Collections.singletonList(topic));
     }
@@ -32,7 +32,7 @@ public class KafkaService<T> implements Closeable {
         this.consumer = new KafkaConsumer<>(getProperties(type, groupId, properties));
     }
 
-    void run() {
+    public void run() {
         while (true) {
             var records = consumer.poll(Duration.ofMillis(100));
             if (!records.isEmpty()) {
