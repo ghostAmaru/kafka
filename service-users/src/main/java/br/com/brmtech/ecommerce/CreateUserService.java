@@ -1,17 +1,18 @@
-package ecommerce;
+package br.com.brmtech.ecommerce;
 
+import ecommerce.KafkaService;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
-public class FraudDetectorService {
+public class CreateUserService {
+
     public static void main(String[] args) {
 
-        var fraudService = new FraudDetectorService();
-        try (var service = new KafkaService<>(FraudDetectorService.class.getSimpleName(),
+        var fraudService = new CreateUserService();
+        try (var service = new KafkaService<>(CreateUserService.class.getSimpleName(),
                 "ECOMMERCE_NEW_ORDER", fraudService::parse, Order.class, Map.of())) {
             service.run();
         }
@@ -48,5 +49,4 @@ public class FraudDetectorService {
     private static boolean isFraud(Order order) {
         return order.getAmount().compareTo(new BigDecimal("4500")) >= 0;
     }
-
 }
