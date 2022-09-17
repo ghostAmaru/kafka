@@ -27,4 +27,5 @@ public class CreateUserService {
         System.out.println(record.value());
         var order = record.value();
     }
+
 }
