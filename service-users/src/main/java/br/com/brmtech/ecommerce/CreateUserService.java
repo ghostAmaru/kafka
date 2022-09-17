@@ -18,6 +18,7 @@ public class CreateUserService {
                 Map.of())) {
             service.run();
         }
+
     }
 
     private void parse(ConsumerRecord<String, Order> record) throws ExecutionException, InterruptedException {
