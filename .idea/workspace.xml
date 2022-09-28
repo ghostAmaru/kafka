@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="add metodo para criacao do banco de dados">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/Order.java" afterDir="false" />
-    </list>
+    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="add metodo para criacao do banco de dados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
