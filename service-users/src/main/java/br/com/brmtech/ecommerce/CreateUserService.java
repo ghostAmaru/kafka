@@ -49,8 +49,11 @@ public class CreateUserService {
         System.out.println("Usuário uuid e " + email + "adicionado");
     }
 
-    private boolean isNewUser(String email) {
-        return true;
+    private boolean isNewUser(String email) throws SQLException {
+        var exists = connection.prepareStatement("select uuid from Users " + "where email = ? limit 1");
+        exists.setString(1,email);
+        var results = exists.executeQuery();
+        return !results.next();
     }
 
 }
