@@ -54,6 +54,7 @@ public class CreateUserService {
         exists.setString(1,email);
         var results = exists.executeQuery();
         return !results.next();
+
     }
 
 }

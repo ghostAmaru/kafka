@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="add metodo para criacao do banco de dados" />
+    <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="add metodo para criacao de usuario e conexao com o banco">
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663457733865</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add metodo para criacao de usuario e conexao com o banco">
+      <created>1664333381388</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664333381388</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +269,8 @@
     <MESSAGE value="adicionando modulo de criadao de usuario no banco de dados usando a ordem do service-new-order" />
     <MESSAGE value="adicionando modulo de criadao de usuario no banco de dados usando a ordem do service-new-orders" />
     <MESSAGE value="add metodo para criacao do banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="add metodo para criacao do banco de dados" />
+    <MESSAGE value="add metodo para criacao de usuario e conexao com o banco" />
+    <option name="LAST_COMMIT_MESSAGE" value="add metodo para criacao de usuario e conexao com o banco" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
