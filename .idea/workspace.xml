@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a921f5b4-06fd-4a50-93da-41e0432c7cad" name="Changes" comment="add metodo para criacao de usuario e conexao com o banco">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/NewOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/ecommerce/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/CreateUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/brmtech/ecommerce/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "introduce.parameter.lambda": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-16",
-    "last_directory_selection": "/home/devops/IdeaProjects/ecommerce/service-fraud-detector/src/main/java/ecommerce",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-16&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/devops/IdeaProjects/ecommerce/service-fraud-detector/src/main/java/ecommerce&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ecommerce" />
@@ -59,7 +66,7 @@
       <recent name="ecommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateUserService">
+  <component name="RunManager" selected="Application.NewOrder">
     <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.brmtech.ecommerce.CreateUserService" />
       <module name="service-users" />
@@ -155,10 +162,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateUserService" />
         <item itemvalue="Application.NewOrder" />
-        <item itemvalue="Application.LogService" />
         <item itemvalue="Application.EmailService" />
+        <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.CreateUserService" />
         <item itemvalue="Application.FraudDetectorService" />
       </list>
     </recent_temporary>

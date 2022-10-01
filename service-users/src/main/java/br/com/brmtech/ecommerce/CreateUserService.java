@@ -7,7 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Map;
-import java.util.concurrent.ExecutionException;
+import java.util.UUID;
 
 public class CreateUserService {
 
@@ -16,7 +16,12 @@ public class CreateUserService {
     CreateUserService() throws SQLException {
         String url = "jdbc:sqlite:target/users_database.db";
         connection = DriverManager.getConnection(url);
-//        connection.createStatement().execute("create table Users (" + "uuid varchar(200) primary key," + "email varchar (200))");
+        try {
+            connection.createStatement().execute("create table Users (" + "uuid varchar(200) primary key," + "email varchar (200))");
+        } catch (SQLException ex){
+//            tenha cuidado a chamada sql pode não estar correta
+            ex.printStackTrace();
+        }
     }
 
     public static void main(String[] args) throws SQLException {
@@ -33,7 +38,7 @@ public class CreateUserService {
 
     private void parse(ConsumerRecord<String, Order> record) throws  SQLException {
         System.out.println("--------------------------------------");
-        System.out.println("Thank you for your order! cheking for new user!");
+        System.out.println("Thank you for your order! checking for new user!");
         System.out.println(record.value());
         var order = record.value();
         if (isNewUser(order.getEmail())){
@@ -43,8 +48,8 @@ public class CreateUserService {
 
     private void insertNewUser(String email) throws SQLException {
         var insert = connection.prepareStatement("insert into Users (uuid, email) " + "values (?,?)");
-        insert.setString(1,"uuid");
-        insert.setString(2,"email");
+        insert.setString(1, UUID.randomUUID().toString());
+        insert.setString(2,email);
         insert.execute();
         System.out.println("Usuário uuid e " + email + "adicionado");
     }
